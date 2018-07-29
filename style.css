@@ -99,29 +99,35 @@ p {
 
 
 @media (max-width: 900px) {
+    
+    
     .labels {
         margin: auto;
+        display:flex;
+        flex-direction: column;
     }
 
 
     .names {
-        text-align: right;
-        max-width: 50%;
-        margin-left: auto;
+        text-align: center;
+        margin: auto;
+        color: rgb(134, 197, 255);
     }
     
     
     .fields {
-        display: grid;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: auto;
+        margin: auto;
+    }
+
+
+    .fields:after {
+        content:"\a";
+        white-space: pre;
     }
     
     
     .radios {
-        margin-left: -45px;
-        margin-top: -25px;
+        margin: auto;
     }
     
     
