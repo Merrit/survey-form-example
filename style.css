@@ -101,6 +101,11 @@ p {
 @media (max-width: 900px) {
     
     
+    .main-div {
+        max-width: 100%;
+    }
+    
+
     .labels {
         margin: auto;
         display:flex;
